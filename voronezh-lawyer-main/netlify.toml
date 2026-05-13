@@ -1,5 +1,7 @@
 [build]
   command = "npm run build"
-  base = "voronezh-lawyer-main"
   publish = ".next"
   environment = { NODE_VERSION = "18.20.8" }
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
